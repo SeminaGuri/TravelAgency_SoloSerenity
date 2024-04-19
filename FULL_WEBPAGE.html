@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Agency</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lexend:wght@100..900&family=Oleo+Script:wght@400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Dancing+Script:wght@400..700&family=Lexend:wght@100..900&family=Marcellus&family=Oleo+Script:wght@400;700&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="FULL_WEBPAGE_CSS.css">
+    </head>
+    <body>
+        <!--HEADER-->
+        <header>
+            <nav class="navbar">
+                <img id="logoheader" src="logo7.png" alt="logoimg">
+                <div class="logoname">SoloSerenity</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#" class="login-btn">Login</a></li>
+                </ul>
+            </nav>
+            <div class="hero-section">
+                <h1>Discover Freedom,<br>Embrace Adventure! &#10022;</h1>
+                <!-- Search form -->
+                <div class="search-container">
+                    <div class="cont loc">
+                        <label for="loc">Located in</label>
+                        <select id="loc">
+                            <option value="portofino"> Portofino</option>
+                            <option value="madeira"> Madeira</option>
+                            <!-- More options -->
+                        </select>
+                    </div>
+                    <div class="cont date">
+                        <label for="dt">Date</label>
+                        <select id="dt">
+                        <option value="date">Wed, 7 Aug</option>
+                        <option value="date">Fri, 12 May</option>
+                        <!-- More options -->
+                        </select>
+                    </div>
+                    <div class="cont price">
+                        <label for="prc">Price</label>
+                        <select id="prc">
+                        <option value="price">400$ - 700$</option>
+                        <option value="price">100$ - 300$</option>
+                        <!-- More options -->
+                        </select>
+                    </div>
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+        </header>
+    
+
+        <!--HEADINGS-->
+        <div class="popular-container">
+            <h1 class="title">Popular <span class="title-bold">Place</span></h1>
+            <nav class="category-nav">
+              <ul>
+                <li class="active"><a href="#">Beach</a></li>
+                <li><a href="#">Mountain</a></li>
+                <li><a href="#">Waterfall</a></li>
+                <li><a href="#">Icebergs</a></li>
+                <li><a href="#" class="view-all">View all</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        <!--POPULAR PLACES--> 
+        <div class="pop-container">
+            <div class="popgrid-item">
+                <img src="madeira.jpg" alt="madeira">
+                <h3>Madeira<span class="rating">⭐ 4.8</span></h3>
+                <p class="location">📍Portugal</p>
+            </div>
+            <div class="popgrid-item">
+                <img src="santorini.jpg" alt="santorini">
+                <h3>Santorini<span class="rating">⭐ 4.5</span></h3>
+                <p class="location">📍Greece</p>
+            </div>
+            <div class="popgrid-item">
+                <img src="theth.jpg" alt="theth">
+                <h3>Theth<span class="rating">⭐ 5.0</span></h3>
+                <p class="location">📍Albania</p>
+            </div>
+        </div>
+
+        <!--BANNER-->
+        <div class="container">
+            <div class="illustration">
+              <img src="girltraveling.webp" alt="Character Illustration">
+            </div>
+            <div class="content">
+              <h1>Discover Your SoloSerenity</h1>
+              <h2>Your Gateway to Unforgettable Journeys!</h2>   
+              <p>Discover the world with SoloSerenity! Whether you're seeking<br>
+                 a solo adventure or joining a group trip, we empower women to<br> explore the world safely and serenely. Our curated experiences<br>
+                 ensure unforgettable journeys filled with discovery, relaxation and<br>
+                 memorable moments.
+              </p>
+                <div class="menu">
+                    <div class="row">
+                        <div class="button">
+                            <img src="flightcolorpp.png" alt="Flight">
+                        </div>
+                        <span>Flight</span>
+                    </div>
+                    <div class="row">
+                        <div class="button">
+                            <img src="hotelcoloredpp.png" alt="Hotel">
+                        </div>
+                        <span>Hotel</span>
+                    </div>
+                    <div class="row">
+                        <div class="button">
+                            <img src="wifipp.png" alt="WiFi">
+                        </div>
+                        <span>WiFi</span>
+                    </div>
+                    <div class="row">
+                        <div class="button">
+                            <img src="foodcolorpp.png" alt="Food">
+                        </div>
+                        <span>Food</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="explore-container">
+            <h1 class="title">Explore <span class="title-bold">Place</span></h1>
+            <nav class="category-nav">
+              <ul>
+                <li class="active"><a href="#">Beach</a></li>
+                <li><a href="#">Mountain</a></li>
+                <li><a href="#">Waterfall</a></li>
+                <li><a href="#">Icebergs</a></li>
+                <li><a href="#" class="view-all">View all</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        <!--EXPLORE PLACES--> 
+        <div class="grid-container">
+            <div class="grid-item">
+            <img src="roma.jpg" alt="roma">
+            <h3>Roma<span class="rating">⭐ 4.9 </span></h3>
+            <p class="location">📍Italy</p>
+            
+            </div>
+            <div class="grid-item">
+            <img src="lago-di-como.jpg" alt="lago-di-como">
+            <h3>Lago-Di-Como<span class="rating">⭐ 4.9 </span></h3>
+            <p class="location">📍Italy</p>
+            </div>
+    
+            <div class="grid-item">
+            <img src="swiss.avif" alt="swiss">
+            <h3>Lauterbrunnen<span class="rating">⭐ 4.9 </span></h3>
+            <p class="location">📍Switzerland</p>
+            </div>
+    
+            <div class="grid-item">
+            <img src="koyota2.jpg" alt="kyoto">
+            <h3>Kyoto<span class="rating">⭐ 4.9 </span></h3>
+            <p class="location">📍Japan</p>
+            </div>
+    
+            <div class="grid-item">
+            <img src="pamukkale.jpg" alt="pamukkale">
+            <h3>Pamukkale<span class="rating">⭐ 4.9 </span></h3>
+            <p class="location">📍Turkey</p>
+            </div>
+    
+            <div class="grid-item">
+            <img src="Zanzibar.jpg" alt="Zanzibar">
+            <h3>Zanzibar<span class="rating">⭐ 4.9 </span></h3>
+            <p class="location">📍Tanzania</p>
+            </div>
+            <!-- Repeat the above structure for as many items as needed -->
+        </div>
+
+        <!--4 BOXES-->
+        <div class="card-container">
+            <div class="card">
+            <div class="number">24+</div>
+            <div class="description">Cities</div>
+            </div>
+            <div class="card">
+            <div class="number">700+</div>
+            <div class="description">Place</div>
+            </div>
+            <div class="card">
+            <div class="number">200+</div>
+            <div class="description">Hotel</div>
+            </div>
+            <div class="card">
+            <div class="number">2k+</div>
+            <div class="description">Review</div>
+            </div>
+        </div>
+
+        <!--OUR GALLERY-->
+
+        <div class="gallery-container">
+            <h1 class="gal">Our Gallery <span class="subtitle"> - Share Your Happy Moment</span></h1>
+            <nav class="cat-nav">
+              <ul>
+                <li><a href="#" class="view-all">View all</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <img src="image.jpg" class="gallery__img" alt="Image 1">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+                <img src="image2.jpg" class="gallery__img" alt="Image 2">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img src="imag3.jpg" class="gallery__img" alt="Image 3">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="image4.jpg" class="gallery__img" alt="Image 4">
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+                <img src="image5.jpg" class="gallery__img" alt="Image 5">
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+                <img src="image6.jpeg" class="gallery__img" alt="Image 6">
+            </figure>
+        </div>
+
+        <!--SPONSORS--> 
+        <div class="image-row">
+            <img src="travelpaypp.png" alt="Image 1">
+            <img src="hiltonpp.png" alt="Image 2">
+            <img src="lufthansapp.png" width=150px alt="Image 3">
+            <img src="airbnbpp.png" alt ="Image 4">
+        </div>        
+
+        <!--NEWSLETTER-->
+        <div class="signup">
+            <h1>Sign up to our newsletter</h1>
+        </div>
+        <div class="newsletter">
+            <input id="email" type="email" placeholder="Enter Your Email Here.">
+            <button type="submit">Submit</button>
+        </div>
+
+
+        <!--FOOTER-->
+        <footer>
+            <div class="first">
+                <img id="logo" src="logo7.png" alt="Logo">
+                <h2 id="agency_n">SoloSerenity</h2>
+                <p id="moto">Travel is fatal to prejudice,<br> and narrow mindedness, <br> and many of our people</p>
+                <div class="icons">
+                    <img src="fb.png" alt="Facebook">
+                    <img src="twitter.png" alt="Twitter">
+                    <img src="in.png" alt="linkedin">
+                    <img src="insta.png" alt="Instagram">
+                </div>
+            </div>
+            <div class="col two">
+                <h3 id="head1"><b>Quick Links</b></h3>
+                <a href="#">Home</a><br>
+                <a href="#">Category</a><br>
+                <a href="#">Blog</a><br>
+                <a href="#">About Us</a><br>
+            </div>
+            <div class="col three">
+                <h3 id="head2"><b>Useful Links</b></h3>
+                <a href="#">FAQ's</a><br>
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Terms & Conditions</a><br>
+                <a href="#">Support</a><br>
+            </div>
+            <div class="col four">
+                <h3 id="head3"><b>Contact Us</b></h3><br>
+                <img src="location.png" alt="Location">
+                <p id="linesp">342 Blane Street, Wisconsin, United States</p>
+                <img src="phone.png" alt="Phone">
+                <p>2145 - 5467 - 5378</p>
+                <img src="email.png" alt="Email">
+                <a href="mailto:soloserenity@agency.com">soloserenity@agency.com</a>
+            </div>
+        </footer>
+        <div class="copyright">
+            <hr>
+            <p>Copyright @ soloserenity@agency.com by SEMINA GURI & FJONA DERKA</p>
+        </div>
+    </body>
+</html>
